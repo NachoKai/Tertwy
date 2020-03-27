@@ -1,26 +1,57 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './styles/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="container justify-content-center contenedor-gen">
+			<div className="row">
+				<div className="col-md-3 justify-content-center contenedor-izq">
+					<Row>Logo</Row>
+					<Row>Inicio</Row>
+					<Row>Explorar</Row>
+					<Row>Notificaciones</Row>
+					<Row>Mensajes</Row>
+					<Row>Guardados</Row>
+					<Row>Listas</Row>
+					<Row>Perfil</Row>
+					<Row>Mas opciones</Row>
+					<Row>Twittear</Row>
+				</div>
+				<div className="col-md-6 justify-content-center contenedor-cen">
+					<Row>Inicio</Row>
+					<Row>¿Que esta pasando?</Row>
+					<Row>Componente Tuits</Row>
+				</div>
+				<div className="col-md-3 justify-content-center contenedor-der">
+					<Row>Buscar en Twitter</Row>
+					<Col>
+						<Row>Tendencias para ti</Row>
+						<Row>Tendencia en Argentina</Row>
+						<Row>Tendencia en Argentina</Row>
+						<Row>Tendencia en Argentina</Row>
+						<Row>Tendencia en Argentina</Row>
+						<Row>Tendencia en Argentina</Row>
+						<Row>Mostrar Mas</Row>
+					</Col>
+					<Col>
+						<Row>A quien seguir</Row>
+						<Row>Persona</Row>
+						<Row>Persona</Row>
+						<Row>Persona</Row>
+						<Row>Mostrar Mas</Row>
+					</Col>
+					<Row>
+						Términos Política de privacidad Cookies Información de anuncios Más opciones
+						© 2020 Twitter, Inc.
+					</Row>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;

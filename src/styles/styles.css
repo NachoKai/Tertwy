@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html,
+body,
+#root {
+  background-color: #000000;
+}
+
+.contenedor-gen {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contenedor-izq {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contenedor-cen {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contenedor-der {
+  background-color: #000000;
+  color: #ffffff;
+}

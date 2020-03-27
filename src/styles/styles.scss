@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+html,
+body,
+#root {
+    background-color: #000000;
+}
+
+.contenedor-gen {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contenedor-izq {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contenedor-cen {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contenedor-der {
+    background-color: #000000;
+    color: #ffffff;
+}
