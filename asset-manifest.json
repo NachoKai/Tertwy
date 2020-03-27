@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Tertwy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Tertwy/static/js/main.35c1bf33.chunk.js",
-    "main.js.map": "/Tertwy/static/js/main.35c1bf33.chunk.js.map",
+    "main.js": "/Tertwy/static/js/main.62e142ad.chunk.js",
+    "main.js.map": "/Tertwy/static/js/main.62e142ad.chunk.js.map",
     "runtime-main.js": "/Tertwy/static/js/runtime-main.89f187c5.js",
     "runtime-main.js.map": "/Tertwy/static/js/runtime-main.89f187c5.js.map",
-    "static/js/2.f5288c0c.chunk.js": "/Tertwy/static/js/2.f5288c0c.chunk.js",
-    "static/js/2.f5288c0c.chunk.js.map": "/Tertwy/static/js/2.f5288c0c.chunk.js.map",
+    "static/js/2.e38c3f0f.chunk.js": "/Tertwy/static/js/2.e38c3f0f.chunk.js",
+    "static/js/2.e38c3f0f.chunk.js.map": "/Tertwy/static/js/2.e38c3f0f.chunk.js.map",
     "index.html": "/Tertwy/index.html",
-    "precache-manifest.a367092d7edbf7b283ce296d6418e20a.js": "/Tertwy/precache-manifest.a367092d7edbf7b283ce296d6418e20a.js",
+    "precache-manifest.0e1c76dabd145ed11443d472c0727aef.js": "/Tertwy/precache-manifest.0e1c76dabd145ed11443d472c0727aef.js",
     "service-worker.js": "/Tertwy/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/Tertwy/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f5288c0c.chunk.js.LICENSE.txt": "/Tertwy/static/js/2.f5288c0c.chunk.js.LICENSE.txt",
+    "static/js/2.e38c3f0f.chunk.js.LICENSE.txt": "/Tertwy/static/js/2.e38c3f0f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Tertwy/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.89f187c5.js",
-    "static/js/2.f5288c0c.chunk.js",
+    "static/js/2.e38c3f0f.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.35c1bf33.chunk.js"
+    "static/js/main.62e142ad.chunk.js"
   ]
 }
