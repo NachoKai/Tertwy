@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/NachoKai/Tertwy/static/css/main.5f361e03.chunk.css",
-    "main.js": "/NachoKai/Tertwy/static/js/main.213f4708.chunk.js",
-    "main.js.map": "/NachoKai/Tertwy/static/js/main.213f4708.chunk.js.map",
-    "runtime-main.js": "/NachoKai/Tertwy/static/js/runtime-main.783920bb.js",
-    "runtime-main.js.map": "/NachoKai/Tertwy/static/js/runtime-main.783920bb.js.map",
-    "static/js/2.f5288c0c.chunk.js": "/NachoKai/Tertwy/static/js/2.f5288c0c.chunk.js",
-    "static/js/2.f5288c0c.chunk.js.map": "/NachoKai/Tertwy/static/js/2.f5288c0c.chunk.js.map",
-    "index.html": "/NachoKai/Tertwy/index.html",
-    "precache-manifest.415bc45cc08c0ce1478e758c8f9a270d.js": "/NachoKai/Tertwy/precache-manifest.415bc45cc08c0ce1478e758c8f9a270d.js",
-    "service-worker.js": "/NachoKai/Tertwy/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/NachoKai/Tertwy/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f5288c0c.chunk.js.LICENSE.txt": "/NachoKai/Tertwy/static/js/2.f5288c0c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/NachoKai/Tertwy/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Tertwy/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Tertwy/static/js/main.35c1bf33.chunk.js",
+    "main.js.map": "/Tertwy/static/js/main.35c1bf33.chunk.js.map",
+    "runtime-main.js": "/Tertwy/static/js/runtime-main.89f187c5.js",
+    "runtime-main.js.map": "/Tertwy/static/js/runtime-main.89f187c5.js.map",
+    "static/js/2.f5288c0c.chunk.js": "/Tertwy/static/js/2.f5288c0c.chunk.js",
+    "static/js/2.f5288c0c.chunk.js.map": "/Tertwy/static/js/2.f5288c0c.chunk.js.map",
+    "index.html": "/Tertwy/index.html",
+    "precache-manifest.a367092d7edbf7b283ce296d6418e20a.js": "/Tertwy/precache-manifest.a367092d7edbf7b283ce296d6418e20a.js",
+    "service-worker.js": "/Tertwy/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Tertwy/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f5288c0c.chunk.js.LICENSE.txt": "/Tertwy/static/js/2.f5288c0c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Tertwy/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.783920bb.js",
+    "static/js/runtime-main.89f187c5.js",
     "static/js/2.f5288c0c.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.213f4708.chunk.js"
+    "static/js/main.35c1bf33.chunk.js"
   ]
 }
