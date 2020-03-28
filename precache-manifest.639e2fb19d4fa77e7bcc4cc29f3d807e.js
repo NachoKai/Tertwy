@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b3782c89f5dd9ecdccfe5d760b16fe6",
+    "revision": "bdf4fdc0f374b690a52c8dc404bc46e2",
     "url": "/Tertwy/index.html"
   },
   {
