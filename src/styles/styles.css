@@ -1,5 +1,42 @@
 .logo {
-  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 47px;
+  width: 47px;
+  font-size: 1.9rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+  background: #0c0714;
+  border-radius: 30px;
+}
+
+.left-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left-btn:hover {
+  cursor: pointer;
+  color: #794bc4;
+  background: #0c0714;
+  border-radius: 30px;
 }
 
 * {
@@ -8,8 +45,8 @@
   margin: 0;
   outline: 0;
   padding: 0;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -20,24 +57,9 @@ html,
 body,
 #root {
   background-color: #000000;
+  color: #ffffff;
 }
 
 .contenedor-gen {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.contenedor-izq {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.contenedor-cen {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.contenedor-der {
-  background-color: #000000;
-  color: #ffffff;
+  padding: 2rem;
 }

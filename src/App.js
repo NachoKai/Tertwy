@@ -2,9 +2,8 @@ import React from 'react';
 import './App.css';
 import './styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Col from "react-bootstrap/Col"
-import Row from "react-bootstrap/Row"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function App() {
 	return (
@@ -16,15 +15,57 @@ function App() {
 							<i className="fab fa-twitter"></i>
 						</div>
 					</Row>
-					<Row>Inicio</Row>
-					<Row>Explorar</Row>
-					<Row>Notificaciones</Row>
-					<Row>Mensajes</Row>
-					<Row>Guardados</Row>
-					<Row>Listas</Row>
-					<Row>Perfil</Row>
-					<Row>Mas opciones</Row>
-					<Row>Twittear</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="fas fa-home"></i>
+							<span>Inicio</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="fas fa-hashtag"></i>
+							<span>Explorar</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="far fa-bell"></i>
+							<span>Notificaciones</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="far fa-envelope"></i>
+							<span>Mensajes</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="fas fa-thumbtack"></i>
+							<span>Guardados</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="far fa-list-alt"></i>
+							<span>Listas</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="fas fa-user-circle"></i>
+							<span>Perfil</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="left-btn">
+							<i class="fas fa-ellipsis-h"></i>
+							<span>Mas opciones</span>
+						</div>
+					</Row>
+					<Row>
+						<div className="twittear-btn">Twittear</div>
+					</Row>
 				</div>
 				<div className="col-md-6 justify-content-center contenedor-cen">
 					<Row>Inicio</Row>
