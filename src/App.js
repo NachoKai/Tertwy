@@ -68,7 +68,14 @@ function App() {
 					</Row>
 				</div>
 				<div className="col-md-6 justify-content-center contenedor-cen">
-					<Row>Inicio</Row>
+					<Row>
+						<span>Inicio</span>
+						<div className="estrellas-icon">
+							<span role="img" aria-label="Stars">
+								✨
+							</span>
+						</div>
+					</Row>
 					<Row>¿Que esta pasando?</Row>
 					<Row>Componente Tuits</Row>
 				</div>

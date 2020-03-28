@@ -2,15 +2,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 47px;
-  width: 47px;
-  font-size: 1.9rem;
+  padding: 10px;
+  width: 52px;
+  margin-left: 10px;
+}
+
+.logo .fab {
+  font-size: 2rem;
 }
 
 .logo:hover {
@@ -23,13 +21,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5px;
+  margin: 3px;
   padding: 15px;
   font-weight: bold;
   font-size: 1.2rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .left-btn:hover {
@@ -37,6 +35,40 @@
   color: #794bc4;
   background: #0c0714;
   border-radius: 30px;
+}
+
+.fas,
+.far,
+.fab {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.twittear-btn {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  background: #794bc4;
+  margin-top: 10px;
+}
+
+.twittear-btn:hover {
+  cursor: pointer;
+  background: #865dca;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.twittear-btn:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.contenedor-cen {
+  border: 1px solid grey;
 }
 
 * {
@@ -62,4 +94,5 @@ body,
 
 .contenedor-gen {
   padding: 2rem;
+  max-width: 100vw;
 }

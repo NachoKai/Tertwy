@@ -1,10 +1,12 @@
 .logo {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 47px;
-	width: 47px;
-	font-size: 1.9rem;
+	padding: 10px;
+	width: 52px;
+	margin-left: 10px;
+
+	.fab {
+		font-size: 2rem;
+	}
 
 	&:hover {
 		cursor: pointer;
@@ -14,17 +16,44 @@
 }
 
 .left-btn {
-    display: flex;
-    margin: 5px;
-    padding: 15px;
+	display: flex;
+	margin: 3px;
+	padding: 15px;
 	font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: space-between;
+	font-size: 1.2rem;
+	align-items: center;
 
 	&:hover {
 		cursor: pointer;
 		color: #794bc4;
 		background: #0c0714;
 		border-radius: 30px;
+	}
+}
+
+.fas,
+.far,
+.fab {
+	font-size: 1.5rem;
+	margin-right: 20px;
+}
+
+.twittear-btn {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	border-radius: 30px;
+	padding: 10px;
+	width: 100%;
+    background: #794bc4;
+    margin-top: 10px;
+
+	&:hover {
+		cursor: pointer;
+		background: #865dca;
+		transform: translateY(-2px);
+	}
+	&:active {
+		transform: translateY(2px);
 	}
 }
