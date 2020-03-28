@@ -18,7 +18,7 @@
 }
 
 .buscador-input {
-	color: #fff;
+	color: #d9d9d9;
 	border: none;
 	background-color: #15181c;
 }
@@ -63,7 +63,45 @@
 	color: #b1b5bd;
 }
 
-.tendencias{
-    font-size: 1.2rem;
-    font-weight: bold;
+.tend-div {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tend-icon {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+	.fas {
+		font-size: 1.1rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.tendencias {
+	border-bottom: 1px solid #2f3336;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.a-quien-seguir {
+	border-bottom: 1px solid #2f3336;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.right-mid-link {
+	border-bottom: 1px solid #2f3336;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }

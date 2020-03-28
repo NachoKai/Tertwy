@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 function App() {
 	return (
-		<div className="container justify-content-center contenedor-gen">
+		<div className="container-fluid justify-content-center contenedor-gen">
 			<div className="row">
 				<div className="col-md-3 justify-content-center contenedor-izq">
 					<Row>
@@ -97,6 +97,9 @@ function App() {
 										<i class="far fa-image"></i>
 									</span>
 									<span className="tool-icon">
+										<i class="fas fa-video"></i>
+									</span>
+									<span className="tool-icon">
 										<i class="fas fa-poll-h"></i>
 									</span>
 									<span className="tool-icon">
@@ -125,22 +128,27 @@ function App() {
 					</Row>
 					<Col>
 						<div className="right-mid">
-							<div className="tendencias">Tendencias para ti</div>
-							<div>Tendencia en Argentina</div>
-							<div>Tendencia en Argentina</div>
-							<div>Tendencia en Argentina</div>
-							<div>Tendencia en Argentina</div>
-							<div>Tendencia en Argentina</div>
-							<div>Mostrar Mas</div>
+							<div className="tend-div">
+								<div className="tendencias">Tendencias para ti</div>
+								<div className="tend-icon">
+									<i class="fas fa-cog"></i>
+								</div>
+							</div>
+							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="right-mid-link">Mostrar Mas</div>
 						</div>
 					</Col>
 					<Col>
 						<div className="right-low">
-							<div>A quien seguir</div>
-							<div>Persona</div>
-							<div>Persona</div>
-							<div>Persona</div>
-							<div>Mostrar Mas</div>
+							<div className="a-quien-seguir">A quién seguir</div>
+							<div className="right-mid-link">Persona</div>
+							<div className="right-mid-link">Persona</div>
+							<div className="right-mid-link">Persona</div>
+							<div className="right-mid-link">Mostrar Mas</div>
 						</div>
 					</Col>
 					<Row>

@@ -142,7 +142,7 @@
 }
 
 .pio-input {
-  color: #fff;
+  color: #d9d9d9;
   width: 100%;
   font-size: 1.2rem;
   background-color: #000;
@@ -214,7 +214,13 @@
           transform: translateY(1px);
 }
 
-.tool-icon:hover {
+.tool-icon .fas,
+.tool-icon .far {
+  font-size: 1.2rem;
+}
+
+.tool-icon .fas:hover,
+.tool-icon .far:hover {
   cursor: pointer;
 }
 
@@ -248,7 +254,7 @@
 }
 
 .buscador-input {
-  color: #fff;
+  color: #d9d9d9;
   border: none;
   background-color: #15181c;
 }
@@ -315,9 +321,53 @@
   color: #b1b5bd;
 }
 
+.tend-div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tend-icon {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.tend-icon .fas {
+  font-size: 1.1rem;
+}
+
+.tend-icon .fas:hover {
+  cursor: pointer;
+}
+
 .tendencias {
+  border-bottom: 1px solid #2f3336;
   font-size: 1.2rem;
   font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.a-quien-seguir {
+  border-bottom: 1px solid #2f3336;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.right-mid-link {
+  border-bottom: 1px solid #2f3336;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 * {
@@ -338,7 +388,7 @@ html,
 body,
 #root {
   background-color: #000000;
-  color: #ffffff;
+  color: #D9D9D9;
 }
 
 .contenedor-gen {

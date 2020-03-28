@@ -1,7 +1,7 @@
 .contenedor-cen {
 	border-left: 1px solid #202327;
 	border-right: 1px solid #202327;
-    padding: 0 25px 0 25px;
+	padding: 0 25px 0 25px;
 	width: 100%;
 }
 
@@ -55,7 +55,7 @@
 	width: 100%;
 }
 .pio-input {
-	color: #fff;
+	color: #d9d9d9;
 	width: 100%;
 	font-size: 1.2rem;
 	background-color: #000;
@@ -99,7 +99,12 @@
 }
 
 .tool-icon {
-	&:hover {
-		cursor: pointer;
+	.fas,
+	.far {
+		font-size: 1.2rem;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
