@@ -4,13 +4,18 @@ import './styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
 	return (
 		<div className="container justify-content-center contenedor-gen">
 			<div className="row">
 				<div className="col-md-3 justify-content-center contenedor-izq">
-					<Row>Logo</Row>
+					<Row>
+						<div className="logo" id="logo">
+							<i className="fab fa-twitter"></i>
+						</div>
+					</Row>
 					<Row>Inicio</Row>
 					<Row>Explorar</Row>
 					<Row>Notificaciones</Row>
