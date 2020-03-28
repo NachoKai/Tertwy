@@ -134,11 +134,31 @@ function App() {
 									<i class="fas fa-cog"></i>
 								</div>
 							</div>
-							<div className="right-mid-link">Tendencia en Argentina</div>
-							<div className="right-mid-link">Tendencia en Argentina</div>
-							<div className="right-mid-link">Tendencia en Argentina</div>
-							<div className="right-mid-link">Tendencia en Argentina</div>
-							<div className="right-mid-link">Tendencia en Argentina</div>
+							<div className="each-tendencia">
+								<span className="right-mid-sub">Tendencia en Argentina</span>
+								<div className="right-mid-link">Título</div>
+								<span className="right-mid-sub">000 Píos</span>
+							</div>
+							<div className="each-tendencia">
+								<span className="right-mid-sub">Tendencia en Argentina</span>
+								<div className="right-mid-link">Título</div>
+								<span className="right-mid-sub">000 Píos</span>
+							</div>
+							<div className="each-tendencia">
+								<span className="right-mid-sub">Tendencia en Argentina</span>
+								<div className="right-mid-link">Título</div>
+								<span className="right-mid-sub">000 Píos</span>
+							</div>
+							<div className="each-tendencia">
+								<span className="right-mid-sub">Tendencia en Argentina</span>
+								<div className="right-mid-link">Título</div>
+								<span className="right-mid-sub">000 Píos</span>
+							</div>
+							<div className="each-tendencia">
+								<span className="right-mid-sub">Tendencia en Argentina</span>
+								<div className="right-mid-link">Título</div>
+								<span className="right-mid-sub">000 Píos</span>
+							</div>
 							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>

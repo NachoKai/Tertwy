@@ -366,6 +366,11 @@
   margin-bottom: 10px;
 }
 
+.right-mid-sub {
+  color: #b1b5bd;
+  font-size: 0.8rem;
+}
+
 .a-quien-seguir {
   border-bottom: 1px solid #2f3336;
   font-size: 1.3rem;
@@ -375,19 +380,18 @@
 }
 
 .right-mid-link {
-  border-bottom: 1px solid #2f3336;
   font-size: 1rem;
   font-weight: bold;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .right-mid-sublink {
   color: #865dca;
-  border-bottom: 1px solid #2f3336;
   font-size: 1rem;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+}
+
+.right-mid-sublink:hover {
+  cursor: pointer;
 }
 
 .right-low-link {
@@ -405,6 +409,20 @@
   margin: 0 auto;
   color: #b1b5bd;
   font-size: 0.8rem;
+}
+
+.each-tendencia {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2f3336;
 }
 
 * {
