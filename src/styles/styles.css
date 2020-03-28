@@ -1,5 +1,6 @@
 .contenedor-izq {
   padding: 0 15px 0 15px;
+  min-width: 50px;
 }
 
 .logo {
@@ -57,6 +58,7 @@
   width: 100%;
   background: #794bc4;
   margin: 10px;
+  margin-bottom: 30px;
 }
 
 .piar-btn:hover {
@@ -72,8 +74,6 @@
 }
 
 .contenedor-cen {
-  border-left: 1px solid #202327;
-  border-right: 1px solid #202327;
   padding: 0 25px 0 25px;
   width: 100%;
 }
@@ -340,6 +340,7 @@
 
 .tend-icon .fas {
   font-size: 1.1rem;
+  margin-right: 0px;
 }
 
 .tend-icon .fas:hover {

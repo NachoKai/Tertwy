@@ -7,9 +7,9 @@ import Row from 'react-bootstrap/Row';
 
 function App() {
 	return (
-		<div className="container-fluid justify-content-center contenedor-gen">
+		<div className="container justify-content-center contenedor-gen">
 			<div className="row">
-				<div className="col-md-3 justify-content-center contenedor-izq">
+				<div className="col-lg-3 justify-content-center contenedor-izq">
 					<Row>
 						<div className="logo" id="logo">
 							<i class="fas fa-dove"></i>
@@ -67,7 +67,7 @@ function App() {
 						<div className="piar-btn">Pio Pio!</div>
 					</Row>
 				</div>
-				<div className="col-md-6 justify-content-center contenedor-cen">
+				<div className="col-lg-6 justify-content-center contenedor-cen">
 					<Row>
 						<div className="center-top">
 							<span className="inicio-center">Inicio</span>
@@ -112,7 +112,7 @@ function App() {
 					</Row>
 					<Row>Componente Tuits</Row>
 				</div>
-				<div className="col-md-3 justify-content-center contenedor-der">
+				<div className="col-lg-3 justify-content-center contenedor-der">
 					<Row>
 						<div className="right-up">
 							<div className="buscador-right">
