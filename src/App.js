@@ -110,26 +110,44 @@ function App() {
 					<Row>Componente Tuits</Row>
 				</div>
 				<div className="col-md-3 justify-content-center contenedor-der">
-					<Row>Buscar en PioPio</Row>
+					<Row>
+						<div className="right-up">
+							<div className="buscador-right">
+								<div className="search-input-icon">
+									<i class="fas fa-search"></i>
+								</div>
+								<input
+									className="buscador-input"
+									placeholder="Buscar en PioPio"
+								></input>
+							</div>
+						</div>
+					</Row>
 					<Col>
-						<Row>Tendencias para ti</Row>
-						<Row>Tendencia en Argentina</Row>
-						<Row>Tendencia en Argentina</Row>
-						<Row>Tendencia en Argentina</Row>
-						<Row>Tendencia en Argentina</Row>
-						<Row>Tendencia en Argentina</Row>
-						<Row>Mostrar Mas</Row>
+						<div className="right-mid">
+							<div>Tendencias para ti</div>
+							<div>Tendencia en Argentina</div>
+							<div>Tendencia en Argentina</div>
+							<div>Tendencia en Argentina</div>
+							<div>Tendencia en Argentina</div>
+							<div>Tendencia en Argentina</div>
+							<div>Mostrar Mas</div>
+						</div>
 					</Col>
 					<Col>
-						<Row>A quien seguir</Row>
-						<Row>Persona</Row>
-						<Row>Persona</Row>
-						<Row>Persona</Row>
-						<Row>Mostrar Mas</Row>
+						<div className="right-low">
+							<div>A quien seguir</div>
+							<div>Persona</div>
+							<div>Persona</div>
+							<div>Persona</div>
+							<div>Mostrar Mas</div>
+						</div>
 					</Col>
 					<Row>
-						Términos Política de privacidad Cookies Información de anuncios Más opciones
-						© 2020 PioPio, Inc.
+						<div className="right-footer">
+							Términos Política de privacidad Cookies Información de anuncios Más
+							opciones © 2020 PioPio, Inc.
+						</div>
 					</Row>
 				</div>
 			</div>

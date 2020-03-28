@@ -1,3 +1,10 @@
+.contenedor-cen {
+	border-left: 1px solid #202327;
+	border-right: 1px solid #202327;
+    padding: 0 25px 0 25px;
+	width: 100%;
+}
+
 .center-top {
 	display: flex;
 	justify-content: space-between;
@@ -31,13 +38,19 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 10px;
+	border-bottom: 5px solid #202327;
 }
 
 .avatar-center {
 	.fas {
 		font-size: 2.5rem;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
+
 .pio-input-div {
 	width: 100%;
 }
@@ -82,5 +95,11 @@
 	}
 	&:active {
 		transform: translateY(1px);
+	}
+}
+
+.tool-icon {
+	&:hover {
+		cursor: pointer;
 	}
 }
