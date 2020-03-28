@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tertwy/precache-manifest.04a61dfb582199a3e3fdb34894eea409.js"
+  "/Tertwy/precache-manifest.639e2fb19d4fa77e7bcc4cc29f3d807e.js"
 );
 
 self.addEventListener('message', (event) => {
