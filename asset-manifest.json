@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tertwy/static/css/main.1d31f9bf.chunk.css",
+    "main.css": "/Tertwy/static/css/main.c04f2e5b.chunk.css",
     "main.js": "/Tertwy/static/js/main.718e02c7.chunk.js",
     "main.js.map": "/Tertwy/static/js/main.718e02c7.chunk.js.map",
     "runtime-main.js": "/Tertwy/static/js/runtime-main.89f187c5.js",
@@ -9,17 +9,17 @@
     "static/js/2.146e131f.chunk.js": "/Tertwy/static/js/2.146e131f.chunk.js",
     "static/js/2.146e131f.chunk.js.map": "/Tertwy/static/js/2.146e131f.chunk.js.map",
     "index.html": "/Tertwy/index.html",
-    "precache-manifest.ec421bfb74e83ecd68797d9e5df1c16b.js": "/Tertwy/precache-manifest.ec421bfb74e83ecd68797d9e5df1c16b.js",
+    "precache-manifest.ee54d86fd6e8cbedc6d11ebb61187d57.js": "/Tertwy/precache-manifest.ee54d86fd6e8cbedc6d11ebb61187d57.js",
     "service-worker.js": "/Tertwy/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/Tertwy/static/css/2.de424728.chunk.css.map",
-    "static/css/main.1d31f9bf.chunk.css.map": "/Tertwy/static/css/main.1d31f9bf.chunk.css.map",
+    "static/css/main.c04f2e5b.chunk.css.map": "/Tertwy/static/css/main.c04f2e5b.chunk.css.map",
     "static/js/2.146e131f.chunk.js.LICENSE.txt": "/Tertwy/static/js/2.146e131f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.89f187c5.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.146e131f.chunk.js",
-    "static/css/main.1d31f9bf.chunk.css",
+    "static/css/main.c04f2e5b.chunk.css",
     "static/js/main.718e02c7.chunk.js"
   ]
 }
