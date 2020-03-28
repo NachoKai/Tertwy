@@ -133,7 +133,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 10px;
   border-bottom: 5px solid #202327;
 }
 
@@ -271,6 +270,7 @@
 }
 
 .pio-persona {
+  width: 100%;
   padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,6 +305,7 @@
 }
 
 .pio-user-div {
+  width: 100%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,23 +347,16 @@
 }
 
 .avatar-mid-pio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-item-align: center;
-      align-self: center;
-  height: 100%;
-  width: 100%;
+  margin-right: 10px;
+  width: 48px;
 }
 
 .avatar-mid-pio .fas {
   font-size: 3rem;
+}
+
+.contenedor-pio {
+  width: 100%;
 }
 
 .contenedor-der {
@@ -598,6 +592,70 @@
 .right-low-user {
   color: #b1b5bd;
   font-size: 0.9rem;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  * {
+    background: blue;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  * {
+    background: yellow;
+  }
+  .contenedor-izq {
+    border-right: 0px;
+  }
+  .contenedor-der {
+    border-left: 0px;
+  }
+  .right-up {
+    margin-top: 15px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  * {
+    background: green;
+  }
+  .contenedor-izq {
+    border-right: 0px;
+  }
+  .contenedor-der {
+    border-left: 0px;
+  }
+  .right-up {
+    margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .contenedor-izq {
+    border-right: 0px;
+  }
+  .contenedor-der {
+    border-left: 0px;
+    padding-right: 15px !important;
+  }
+  .right-up {
+    margin-top: 15px;
+  }
+  .input-center {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .pio-persona {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .contenedor-gen {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .contenedor-izq {
+    padding-left: 15px !important;
+  }
 }
 
 * {

@@ -1,0 +1,78 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+	* {
+		background: blue;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	* {
+		background: yellow;
+	}
+
+	.contenedor-izq {
+		border-right: 0px;
+	}
+
+	.contenedor-der {
+		border-left: 0px;
+	}
+
+	.right-up {
+		margin-top: 15px;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	* {
+		background: green;
+	}
+
+	.contenedor-izq {
+		border-right: 0px;
+	}
+
+	.contenedor-der {
+		border-left: 0px;
+	}
+
+	.right-up {
+		margin-top: 15px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	// * {
+	// 	background: red;
+	// }
+
+	.contenedor-izq {
+		border-right: 0px;
+	}
+
+	.contenedor-der {
+    border-left: 0px;
+    padding-right: 15px !important;
+	}
+
+	.right-up {
+		margin-top: 15px;
+	}
+
+	.input-center {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.pio-persona {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contenedor-gen {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.contenedor-izq {
+		padding-left: 15px !important;
+	}
+}

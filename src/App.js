@@ -16,54 +16,54 @@ function App() {
 				<div className="col-lg-3 justify-content-center contenedor-izq">
 					<Row>
 						<div className="logo" id="logo">
-							<i class="fas fa-dove"></i>
+							<i className="fas fa-dove"></i>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="fas fa-home"></i>
+							<i className="fas fa-home"></i>
 							<span>Inicio</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="fas fa-hashtag"></i>
+							<i className="fas fa-hashtag"></i>
 							<span>Explorar</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="far fa-bell"></i>
+							<i className="far fa-bell"></i>
 							<span>Notificaciones</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="far fa-envelope"></i>
+							<i className="far fa-envelope"></i>
 							<span>Mensajes</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="fas fa-thumbtack"></i>
+							<i className="fas fa-thumbtack"></i>
 							<span>Guardados</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="far fa-list-alt"></i>
+							<i className="far fa-list-alt"></i>
 							<span>Listas</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="fas fa-user-circle"></i>
+							<i className="fas fa-user-circle"></i>
 							<span>Perfil</span>
 						</div>
 					</Row>
 					<Row>
 						<div className="left-btn">
-							<i class="fas fa-ellipsis-h"></i>
+							<i className="fas fa-ellipsis-h"></i>
 							<span>Mas opciones</span>
 						</div>
 					</Row>
@@ -86,7 +86,42 @@ function App() {
 						<InputPio />
 					</Row>
 					<Row>
-						<Pio />
+						<Pio
+							nombre="Nombre 1"
+							usuario="usuario1"
+							fecha="Hoy"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
+						<Pio
+							nombre="Nombre 2"
+							usuario="usuario2"
+							fecha="Hoy"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
+						<Pio
+							nombre="Nombre 3"
+							usuario="usuario3"
+							fecha="Hoy"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
+						<Pio
+							nombre="Nombre 4"
+							usuario="usuario4"
+							fecha="Ayer"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
+						<Pio
+							nombre="Nombre 5"
+							usuario="usuario5"
+							fecha="Ayer"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
+						<Pio
+							nombre="Nombre 6"
+							usuario="usuario6"
+							fecha="Ayer"
+							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
+						/>
 					</Row>
 				</div>
 				<div className="col-lg-3 justify-content-center contenedor-der">
@@ -94,7 +129,7 @@ function App() {
 						<div className="right-up">
 							<div className="buscador-right">
 								<div className="search-input-icon">
-									<i class="fas fa-search"></i>
+									<i className="fas fa-search"></i>
 								</div>
 								<input
 									className="buscador-input"
@@ -108,7 +143,7 @@ function App() {
 							<div className="tend-div">
 								<div className="tendencias">Tendencias para ti</div>
 								<div className="tend-icon">
-									<i class="fas fa-cog"></i>
+									<i className="fas fa-cog"></i>
 								</div>
 							</div>
 							<Tendencia pais="Argentina" titulo="Título 1" cantidad="1015" />

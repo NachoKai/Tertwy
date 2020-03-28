@@ -11,16 +11,11 @@ function Pio(props) {
 				</div>
 				<div className="pio-user-div">
 					<div className="center-name-user">
-						<span className="pio-nombre">Nombre</span>
-						<span className="pio-user">@usuario</span>
-						<span className="pio-fecha">• Fecha</span>
+						<span className="pio-nombre">{props.nombre}</span>
+						<span className="pio-user">@{props.usuario}</span>
+						<span className="pio-fecha">• {props.fecha}</span>
 					</div>
-					<span className="pio-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo
-						metus id sapien mattis aliquam. Suspendisse consectetur mi at tortor
-						tincidunt, ut dapibus est varius. Suspendisse luctus elit enim, in aliquet
-						justo porttitor metus.
-					</span>
+					<span className="pio-text">{props.pio}</span>
 					<div className="pio-icons">
 						<span>
 							<i class="far fa-comment"></i>
