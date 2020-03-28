@@ -4,6 +4,8 @@ import './styles/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import UserReco from './components/user-reco';
+import Tendencia from './components/tendencia';
 
 function App() {
 	return (
@@ -134,31 +136,11 @@ function App() {
 									<i class="fas fa-cog"></i>
 								</div>
 							</div>
-							<div className="each-tendencia">
-								<span className="right-mid-sub">Tendencia en Argentina</span>
-								<div className="right-mid-link">Título</div>
-								<span className="right-mid-sub">000 Píos</span>
-							</div>
-							<div className="each-tendencia">
-								<span className="right-mid-sub">Tendencia en Argentina</span>
-								<div className="right-mid-link">Título</div>
-								<span className="right-mid-sub">000 Píos</span>
-							</div>
-							<div className="each-tendencia">
-								<span className="right-mid-sub">Tendencia en Argentina</span>
-								<div className="right-mid-link">Título</div>
-								<span className="right-mid-sub">000 Píos</span>
-							</div>
-							<div className="each-tendencia">
-								<span className="right-mid-sub">Tendencia en Argentina</span>
-								<div className="right-mid-link">Título</div>
-								<span className="right-mid-sub">000 Píos</span>
-							</div>
-							<div className="each-tendencia">
-								<span className="right-mid-sub">Tendencia en Argentina</span>
-								<div className="right-mid-link">Título</div>
-								<span className="right-mid-sub">000 Píos</span>
-							</div>
+							<Tendencia pais="Argentina" titulo="Título 1" cantidad="1015" />
+							<Tendencia pais="Argentina" titulo="Título 2" cantidad="905" />
+							<Tendencia pais="Argentina" titulo="Título 3" cantidad="520" />
+							<Tendencia pais="Argentina" titulo="Título 4" cantidad="410" />
+							<Tendencia pais="Argentina" titulo="Título 5" cantidad="120" />
 							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
@@ -167,39 +149,9 @@ function App() {
 							<div className="tend-div">
 								<div className="tendencias">A quien seguir</div>
 							</div>
-							<div className="each-tendencia">
-								<div className="right-low-persona">
-									<div className="avatar-low-right">
-										<i class="fas fa-user-circle"></i>
-									</div>
-									<div className="persona-user">
-										<span className="persona">Persona 1</span>
-										<span className="right-low-user">@usuario1</span>
-									</div>
-								</div>
-							</div>
-							<div className="each-tendencia">
-								<div className="right-low-persona">
-									<div className="avatar-low-right">
-										<i class="fas fa-user-circle"></i>
-									</div>
-									<div className="persona-user">
-										<span className="persona">Persona 2</span>
-										<span className="right-low-user">@usuario2</span>
-									</div>
-								</div>
-							</div>
-							<div className="each-tendencia">
-								<div className="right-low-persona">
-									<div className="avatar-low-right">
-										<i class="fas fa-user-circle"></i>
-									</div>
-									<div className="persona-user">
-										<span className="persona">Persona 3</span>
-										<span className="right-low-user">@usuario3</span>
-									</div>
-								</div>
-							</div>
+							<UserReco nombreUsuario="Usuario 1" cuentaUsuario="@usuario1" />
+							<UserReco nombreUsuario="Usuario 2" cuentaUsuario="@usuario2" />
+							<UserReco nombreUsuario="Usuario 3" cuentaUsuario="@usuario3" />
 							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
