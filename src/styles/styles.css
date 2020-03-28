@@ -7,8 +7,8 @@
   margin-left: 10px;
 }
 
-.logo .fab {
-  font-size: 2rem;
+.logo .fas {
+  font-size: 2.2rem;
 }
 
 .logo:hover {
@@ -22,7 +22,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: 3px;
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
   font-size: 1.2rem;
   -webkit-box-align: center;
@@ -44,7 +44,7 @@
   margin-right: 20px;
 }
 
-.twittear-btn {
+.piar-btn {
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
@@ -52,23 +52,149 @@
   padding: 10px;
   width: 100%;
   background: #794bc4;
-  margin-top: 10px;
+  margin: 10px;
 }
 
-.twittear-btn:hover {
+.piar-btn:hover {
   cursor: pointer;
   background: #865dca;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 
-.twittear-btn:active {
+.piar-btn:active {
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
 }
 
-.contenedor-cen {
-  border: 1px solid grey;
+.center-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 13px;
+}
+
+.estrellas-icon {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.estrellas-icon:hover {
+  cursor: pointer;
+  background: #0c0714;
+  border-radius: 30px;
+}
+
+.inicio-center {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.inicio-center:hover {
+  cursor: pointer;
+}
+
+.input-center {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.avatar-center .fas {
+  font-size: 2.5rem;
+}
+
+.pio-input-div {
+  width: 100%;
+}
+
+.pio-input {
+  color: #fff;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #000;
+  border: none;
+}
+
+.pio-input::-webkit-input-placeholder {
+  color: #b1b5bd;
+}
+
+.pio-input:-ms-input-placeholder {
+  color: #b1b5bd;
+}
+
+.pio-input::-ms-input-placeholder {
+  color: #b1b5bd;
+}
+
+.pio-input::placeholder {
+  color: #b1b5bd;
+}
+
+.input-up {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-down {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.piar-btn-mid {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 30px;
+  padding: 6px 18px 6px 18px;
+  background: #794bc4;
+  margin: 10px;
+}
+
+.piar-btn-mid:hover {
+  cursor: pointer;
+  background: #865dca;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.piar-btn-mid:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 * {
@@ -93,6 +219,6 @@ body,
 }
 
 .contenedor-gen {
-  padding: 2rem;
+  padding: 1rem;
   max-width: 100vw;
 }

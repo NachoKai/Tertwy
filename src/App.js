@@ -12,7 +12,7 @@ function App() {
 				<div className="col-md-3 justify-content-center contenedor-izq">
 					<Row>
 						<div className="logo" id="logo">
-							<i className="fab fa-twitter"></i>
+							<i class="fas fa-dove"></i>
 						</div>
 					</Row>
 					<Row>
@@ -64,23 +64,53 @@ function App() {
 						</div>
 					</Row>
 					<Row>
-						<div className="twittear-btn">Twittear</div>
+						<div className="piar-btn">Pio Pio!</div>
 					</Row>
 				</div>
 				<div className="col-md-6 justify-content-center contenedor-cen">
 					<Row>
-						<span>Inicio</span>
-						<div className="estrellas-icon">
-							<span role="img" aria-label="Stars">
-								✨
-							</span>
+						<div className="center-top">
+							<span className="inicio-center">Inicio</span>
+							<div className="estrellas-icon">
+								<span role="img" aria-label="Stars">
+									✨
+								</span>
+							</div>
 						</div>
 					</Row>
-					<Row>¿Que esta pasando?</Row>
+					<Row>
+						<div className="input-center">
+							<div className="input-up">
+								<div className="avatar-center">
+									<i class="fas fa-user-circle"></i>
+								</div>
+								<div className="pio-input-div">
+									<input
+										className="pio-input"
+										placeholder="¿Que esta pasando?"
+									></input>
+								</div>
+							</div>
+							<div className="input-down">
+								<div className="tools-icons">
+									<span className="tool-icon">
+										<i class="far fa-image"></i>
+									</span>
+									<span className="tool-icon">
+										<i class="fas fa-poll-h"></i>
+									</span>
+									<span className="tool-icon">
+										<i class="far fa-grin-alt"></i>
+									</span>
+								</div>
+								<div className="piar-btn-mid">Pio Pio!</div>
+							</div>
+						</div>
+					</Row>
 					<Row>Componente Tuits</Row>
 				</div>
 				<div className="col-md-3 justify-content-center contenedor-der">
-					<Row>Buscar en Twitter</Row>
+					<Row>Buscar en PioPio</Row>
 					<Col>
 						<Row>Tendencias para ti</Row>
 						<Row>Tendencia en Argentina</Row>
@@ -99,7 +129,7 @@ function App() {
 					</Col>
 					<Row>
 						Términos Política de privacidad Cookies Información de anuncios Más opciones
-						© 2020 Twitter, Inc.
+						© 2020 PioPio, Inc.
 					</Row>
 				</div>
 			</div>

@@ -1,3 +1,86 @@
-.contenedor-cen{
-    border: 1px solid grey;
+.center-top {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 13px;
+}
+.estrellas-icon {
+	font-size: 1.5rem;
+	padding: 5px;
+
+	&:hover {
+		cursor: pointer;
+		background: #0c0714;
+		border-radius: 30px;
+	}
+}
+
+.inicio-center {
+	font-weight: bold;
+	font-size: 1.2rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.input-center {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.avatar-center {
+	.fas {
+		font-size: 2.5rem;
+	}
+}
+.pio-input-div {
+	width: 100%;
+}
+.pio-input {
+	color: #fff;
+	width: 100%;
+	font-size: 1.2rem;
+	background-color: #000;
+	border: none;
+}
+.pio-input::placeholder {
+	color: #b1b5bd;
+}
+
+.input-up {
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 10px;
+}
+.input-down {
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.piar-btn-mid {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 30px;
+	padding: 6px 18px 6px 18px;
+	background: #794bc4;
+	margin: 10px;
+
+	&:hover {
+		cursor: pointer;
+		background: #865dca;
+		transform: translateY(-1px);
+	}
+	&:active {
+		transform: translateY(1px);
+	}
 }

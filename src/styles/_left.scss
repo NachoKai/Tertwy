@@ -4,8 +4,8 @@
 	width: 52px;
 	margin-left: 10px;
 
-	.fab {
-		font-size: 2rem;
+	.fas {
+		font-size: 2.2rem;
 	}
 
 	&:hover {
@@ -18,7 +18,7 @@
 .left-btn {
 	display: flex;
 	margin: 3px;
-	padding: 15px;
+	padding: 10px;
 	font-weight: bold;
 	font-size: 1.2rem;
 	align-items: center;
@@ -38,15 +38,15 @@
 	margin-right: 20px;
 }
 
-.twittear-btn {
+.piar-btn {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.2rem;
 	border-radius: 30px;
 	padding: 10px;
 	width: 100%;
-    background: #794bc4;
-    margin-top: 10px;
+	background: #794bc4;
+	margin: 10px;
 
 	&:hover {
 		cursor: pointer;
