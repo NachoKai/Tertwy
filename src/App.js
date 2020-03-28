@@ -8,6 +8,7 @@ import UserReco from './components/user-reco';
 import Tendencia from './components/tendencia';
 import InputPio from './components/input-pio';
 import Pio from './components/pio';
+import Buscador from './components/buscador';
 
 function App() {
 	return (
@@ -132,17 +133,7 @@ function App() {
 				</div>
 				<div className="col-lg-3 justify-content-center contenedor-der">
 					<Row>
-						<div className="right-up">
-							<div className="buscador-right">
-								<div className="search-input-icon">
-									<i className="fas fa-search"></i>
-								</div>
-								<input
-									className="buscador-input"
-									placeholder="Buscar en PioPio"
-								></input>
-							</div>
-						</div>
+						<Buscador />
 					</Row>
 					<Col>
 						<div className="right-mid">
