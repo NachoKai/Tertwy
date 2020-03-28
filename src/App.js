@@ -139,7 +139,7 @@ function App() {
 							<div className="right-mid-link">Tendencia en Argentina</div>
 							<div className="right-mid-link">Tendencia en Argentina</div>
 							<div className="right-mid-link">Tendencia en Argentina</div>
-							<div className="right-mid-link">Mostrar Mas</div>
+							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
 					<Col>
@@ -148,14 +148,18 @@ function App() {
 							<div className="right-mid-link">Persona</div>
 							<div className="right-mid-link">Persona</div>
 							<div className="right-mid-link">Persona</div>
-							<div className="right-mid-link">Mostrar Mas</div>
+							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
 					<Row>
 						<div className="right-footer">
-							Términos Política de privacidad Cookies Información de anuncios Más
-							opciones © 2020 PioPio, Inc.
+							<div className="right-low-link">Términos</div>
+							<div className="right-low-link">Política de privacidad</div>
+							<div className="right-low-link">Cookies</div>
+							<div className="right-low-link">Información de anuncios</div>
+							<div className="right-low-link">Más opciones</div>
 						</div>
+						<div className="right-low-footer">© 2020 PioPio, Inc.</div>
 					</Row>
 				</div>
 			</div>
