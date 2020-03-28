@@ -1,6 +1,7 @@
 .contenedor-izq {
-    padding: 0 15px 0 15px;
-    min-width: 50px;
+	border-right: 1px solid #202327;
+	padding: 0 15px 0 15px;
+	min-width: 50px;
 }
 
 .logo {
@@ -51,8 +52,8 @@
 	padding: 10px;
 	width: 100%;
 	background: #794bc4;
-    margin: 10px;
-    margin-bottom: 30px;
+	margin: 10px;
+	margin-bottom: 30px;
 
 	&:hover {
 		cursor: pointer;
