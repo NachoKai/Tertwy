@@ -232,6 +232,139 @@
   cursor: pointer;
 }
 
+.pio-icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
+}
+
+.pio-icons .far,
+.pio-icons .fas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 1.1rem;
+}
+
+.pio-icons .far:hover,
+.pio-icons .fas:hover {
+  cursor: pointer;
+  color: #794bc4;
+  background: #162632;
+  border-radius: 30px;
+}
+
+.pio-persona {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #202327;
+}
+
+.pio-nombre {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+}
+
+.pio-user {
+  margin-left: 10px;
+  color: #b1b5bd;
+  font-size: 1rem;
+  padding: 5px 0px 5px 0px;
+}
+
+.pio-fecha {
+  margin-left: 10px;
+  color: #b1b5bd;
+  font-size: 0.9rem;
+  padding: 5px 0px 5px 0px;
+}
+
+.pio-user-div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center-name-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pio-avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.avatar-mid-pio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 100%;
+  width: 100%;
+}
+
+.avatar-mid-pio .fas {
+  font-size: 3rem;
+}
+
 .contenedor-der {
   border-left: 1px solid #202327;
   padding: 0 0 0 15px !important;
@@ -369,7 +502,7 @@
 
 .right-mid-sub {
   color: #b1b5bd;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .a-quien-seguir {
@@ -441,7 +574,7 @@
 }
 
 .persona {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 

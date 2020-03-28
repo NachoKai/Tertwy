@@ -109,3 +109,91 @@
 		}
 	}
 }
+
+.pio-icons {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 5px;
+	padding: 0 10px 0 10px;
+
+	.far,
+	.fas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		width: 40px;
+		font-size: 1.1rem;
+
+		&:hover {
+			cursor: pointer;
+			color: #794bc4;
+			background: #162632;
+			border-radius: 30px;
+		}
+	}
+}
+
+.pio-persona {
+	padding: 0.5rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	border-bottom: 1px solid #202327;
+}
+
+.pio-nombre {
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+}
+
+.pio-user {
+	margin-left: 10px;
+	color: #b1b5bd;
+	font-size: 1rem;
+	padding: 5px 0px 5px 0px;
+}
+
+.pio-fecha {
+	margin-left: 10px;
+	color: #b1b5bd;
+	font-size: 0.9rem;
+	padding: 5px 0px 5px 0px;
+}
+
+.pio-user-div {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.center-name-user {
+	display: flex;
+	align-items: center;
+}
+
+.pio-avatar {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100%;
+}
+
+.avatar-mid-pio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	height: 100%;
+	width: 100%;
+
+	.fas {
+		font-size: 3rem;
+	}
+}

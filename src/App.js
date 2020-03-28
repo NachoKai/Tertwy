@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import UserReco from './components/user-reco';
 import Tendencia from './components/tendencia';
+import InputPio from './components/input-pio';
+import Pio from './components/pio';
 
 function App() {
 	return (
@@ -81,38 +83,11 @@ function App() {
 						</div>
 					</Row>
 					<Row>
-						<div className="input-center">
-							<div className="input-up">
-								<div className="avatar-center">
-									<i class="fas fa-user-circle"></i>
-								</div>
-								<div className="pio-input-div">
-									<input
-										className="pio-input"
-										placeholder="¿Que esta pasando?"
-									></input>
-								</div>
-							</div>
-							<div className="input-down">
-								<div className="tools-icons">
-									<span className="tool-icon">
-										<i class="far fa-image"></i>
-									</span>
-									<span className="tool-icon">
-										<i class="fas fa-video"></i>
-									</span>
-									<span className="tool-icon">
-										<i class="fas fa-poll-h"></i>
-									</span>
-									<span className="tool-icon">
-										<i class="far fa-grin-alt"></i>
-									</span>
-								</div>
-								<div className="piar-btn-mid">Pio Pio!</div>
-							</div>
-						</div>
+						<InputPio />
 					</Row>
-					<Row>Componente Tuits</Row>
+					<Row>
+						<Pio />
+					</Row>
 				</div>
 				<div className="col-lg-3 justify-content-center contenedor-der">
 					<Row>
