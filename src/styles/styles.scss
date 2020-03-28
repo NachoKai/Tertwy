@@ -19,6 +19,12 @@ body,
 }
 
 .contenedor-gen {
-    padding: 1rem;
-    max-width: 100vw;
+	padding: 1rem;
+	max-width: 100vw;
+}
+
+.col,
+.row {
+	padding: 0 !important;
+	margin: 0 !important;
 }

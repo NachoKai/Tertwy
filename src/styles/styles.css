@@ -315,6 +315,11 @@
   color: #b1b5bd;
 }
 
+.tendencias {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -339,4 +344,10 @@ body,
 .contenedor-gen {
   padding: 1rem;
   max-width: 100vw;
+}
+
+.col,
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
 }

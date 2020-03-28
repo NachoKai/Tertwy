@@ -125,7 +125,7 @@ function App() {
 					</Row>
 					<Col>
 						<div className="right-mid">
-							<div>Tendencias para ti</div>
+							<div className="tendencias">Tendencias para ti</div>
 							<div>Tendencia en Argentina</div>
 							<div>Tendencia en Argentina</div>
 							<div>Tendencia en Argentina</div>
