@@ -98,13 +98,31 @@
 	}
 }
 
+.tools-icons {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	padding: 0 10px 0 10px;
+}
+
 .tool-icon {
-	.fas,
-	.far {
-		font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.far,
+	.fas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 35px;
+		width: 35px;
+		font-size: 1.1rem;
+		color: #794bc4;
 
 		&:hover {
 			cursor: pointer;
+			background: #162632;
+			border-radius: 30px;
 		}
 	}
 }
@@ -148,6 +166,11 @@
 	font-size: 1rem;
 	font-weight: bold;
 	padding: 5px 0px 5px 0px;
+
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
 }
 
 .pio-user {
@@ -162,6 +185,11 @@
 	color: #b1b5bd;
 	font-size: 0.9rem;
 	padding: 5px 0px 5px 0px;
+
+	&:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
 }
 
 .pio-user-div {
@@ -196,4 +224,13 @@
 
 .contenedor-pio {
 	width: 100%;
+
+	&:hover {
+		background: #15181c;
+		cursor: pointer;
+	}
+}
+
+.avatar-circle {
+	border-radius: 30px;
 }

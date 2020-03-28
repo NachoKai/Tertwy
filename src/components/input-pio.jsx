@@ -5,7 +5,7 @@ function InputPio(props) {
 		<div className="input-center">
 			<div className="input-up">
 				<div className="avatar-center">
-					<i class="fas fa-user-circle"></i>
+					<i className="fas fa-user-circle"></i>
 				</div>
 				<div className="pio-input-div">
 					<input className="pio-input" placeholder="¿Que esta pasando?"></input>
@@ -14,16 +14,16 @@ function InputPio(props) {
 			<div className="input-down">
 				<div className="tools-icons">
 					<span className="tool-icon">
-						<i class="far fa-image"></i>
+						<i className="far fa-image"></i>
 					</span>
 					<span className="tool-icon">
-						<i class="fas fa-video"></i>
+						<i className="fas fa-video"></i>
 					</span>
 					<span className="tool-icon">
-						<i class="fas fa-poll-h"></i>
+						<i className="fas fa-poll-h"></i>
 					</span>
 					<span className="tool-icon">
-						<i class="far fa-grin-alt"></i>
+						<i className="far fa-grin-alt"></i>
 					</span>
 				</div>
 				<div className="piar-btn-mid">Pio Pio!</div>

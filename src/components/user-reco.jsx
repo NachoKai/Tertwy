@@ -5,7 +5,7 @@ function UserReco(props) {
 		<div className="each-tendencia">
 			<div className="right-low-persona">
 				<div className="avatar-low-right">
-					<i class="fas fa-user-circle"></i>
+					<i className="fas fa-user-circle"></i>
 				</div>
 				<div className="persona-user">
 					<span className="persona">{props.nombreUsuario}</span>

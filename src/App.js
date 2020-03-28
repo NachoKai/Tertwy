@@ -90,36 +90,42 @@ function App() {
 							nombre="Nombre 1"
 							usuario="usuario1"
 							fecha="Hoy"
+							img="https://picsum.photos/50"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 						<Pio
 							nombre="Nombre 2"
 							usuario="usuario2"
 							fecha="Hoy"
+							img="https://picsum.photos/51"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 						<Pio
 							nombre="Nombre 3"
 							usuario="usuario3"
 							fecha="Hoy"
+							img="https://picsum.photos/52"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 						<Pio
 							nombre="Nombre 4"
 							usuario="usuario4"
 							fecha="Ayer"
+							img="https://picsum.photos/53"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 						<Pio
 							nombre="Nombre 5"
 							usuario="usuario5"
 							fecha="Ayer"
+							img="https://picsum.photos/54"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 						<Pio
 							nombre="Nombre 6"
 							usuario="usuario6"
 							fecha="Ayer"
+							img="https://picsum.photos/55"
 							pio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia ligula lacus, in vulputate quam elementum vitae. Aliquam tempus est ante, ut placerat enim volutpat eu. Suspendisse potenti. Sed ac aliquet sem. Nulla ornare sed."
 						/>
 					</Row>

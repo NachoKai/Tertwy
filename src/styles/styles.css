@@ -221,14 +221,51 @@
           transform: translateY(1px);
 }
 
-.tool-icon .fas,
-.tool-icon .far {
-  font-size: 1.2rem;
+.tools-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
 }
 
-.tool-icon .fas:hover,
-.tool-icon .far:hover {
+.tool-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tool-icon .far,
+.tool-icon .fas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+  width: 35px;
+  font-size: 1.1rem;
+  color: #794bc4;
+}
+
+.tool-icon .far:hover,
+.tool-icon .fas:hover {
   cursor: pointer;
+  background: #162632;
+  border-radius: 30px;
 }
 
 .pio-icons {
@@ -290,6 +327,11 @@
   padding: 5px 0px 5px 0px;
 }
 
+.pio-nombre:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .pio-user {
   margin-left: 10px;
   color: #b1b5bd;
@@ -302,6 +344,11 @@
   color: #b1b5bd;
   font-size: 0.9rem;
   padding: 5px 0px 5px 0px;
+}
+
+.pio-fecha:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .pio-user-div {
@@ -357,6 +404,15 @@
 
 .contenedor-pio {
   width: 100%;
+}
+
+.contenedor-pio:hover {
+  background: #15181c;
+  cursor: pointer;
+}
+
+.avatar-circle {
+  border-radius: 30px;
 }
 
 .contenedor-der {
@@ -594,16 +650,7 @@
   font-size: 0.9rem;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-  * {
-    background: blue;
-  }
-}
-
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  * {
-    background: yellow;
-  }
   .contenedor-izq {
     border-right: 0px;
   }
@@ -616,9 +663,6 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-  * {
-    background: green;
-  }
   .contenedor-izq {
     border-right: 0px;
   }
