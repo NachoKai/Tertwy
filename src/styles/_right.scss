@@ -1,6 +1,6 @@
 .contenedor-der {
 	border-left: 1px solid #202327;
-	padding: 0 15px 0 15px;
+	padding: 0 0 0 15px !important;
 }
 
 .right-up {
@@ -43,7 +43,6 @@
 	display: flex;
 	flex-direction: column;
 	border-radius: 30px;
-	padding: 20px;
 	background: #15181c;
 	margin: 15px 0 15px 0;
 }
@@ -53,8 +52,8 @@
 	display: flex;
 	flex-direction: column;
 	border-radius: 30px;
-	padding: 20px;
 	background: #15181c;
+	margin: 15px 0 15px 0;
 }
 
 .right-footer {
@@ -67,6 +66,8 @@
 }
 
 .tend-div {
+	border-bottom: 1px solid #2f3336;
+	padding: 10px 15px 0px 15px;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -74,7 +75,6 @@
 
 .tend-icon {
 	padding-bottom: 10px;
-	margin-bottom: 10px;
 
 	.fas {
 		font-size: 1.1rem;
@@ -86,11 +86,9 @@
 }
 
 .tendencias {
-	border-bottom: 1px solid #2f3336;
 	font-size: 1.2rem;
 	font-weight: bold;
 	padding-bottom: 10px;
-	margin-bottom: 10px;
 }
 
 .right-mid-sub {
@@ -109,12 +107,13 @@
 .right-mid-link {
 	font-size: 1rem;
 	font-weight: bold;
+	padding: 5px 0px 5px 0px;
 }
 
 .right-mid-sublink {
 	color: #865dca;
 	font-size: 1rem;
-	padding-bottom: 10px;
+	padding: 10px 15px 10px 15px;
 
 	&:hover {
 		cursor: pointer;
@@ -139,10 +138,41 @@
 }
 
 .each-tendencia {
-    width: 100%;
+	padding: 10px 15px 10px 15px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
 	border-bottom: 1px solid #2f3336;
+
+	&:hover {
+		cursor: pointer;
+		background: #191c20;
+	}
+}
+
+.right-low-persona {
+	display: flex;
+	align-items: center;
+}
+
+.persona {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.avatar-low-right {
+	.fas {
+		font-size: 3rem;
+	}
+}
+
+.persona-user {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.right-low-user {
+	color: #b1b5bd;
+	font-size: 0.9rem;
 }

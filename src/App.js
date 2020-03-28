@@ -164,10 +164,42 @@ function App() {
 					</Col>
 					<Col>
 						<div className="right-low">
-							<div className="a-quien-seguir">A quién seguir</div>
-							<div className="right-mid-link">Persona</div>
-							<div className="right-mid-link">Persona</div>
-							<div className="right-mid-link">Persona</div>
+							<div className="tend-div">
+								<div className="tendencias">A quien seguir</div>
+							</div>
+							<div className="each-tendencia">
+								<div className="right-low-persona">
+									<div className="avatar-low-right">
+										<i class="fas fa-user-circle"></i>
+									</div>
+									<div className="persona-user">
+										<span className="persona">Persona 1</span>
+										<span className="right-low-user">@usuario1</span>
+									</div>
+								</div>
+							</div>
+							<div className="each-tendencia">
+								<div className="right-low-persona">
+									<div className="avatar-low-right">
+										<i class="fas fa-user-circle"></i>
+									</div>
+									<div className="persona-user">
+										<span className="persona">Persona 2</span>
+										<span className="right-low-user">@usuario2</span>
+									</div>
+								</div>
+							</div>
+							<div className="each-tendencia">
+								<div className="right-low-persona">
+									<div className="avatar-low-right">
+										<i class="fas fa-user-circle"></i>
+									</div>
+									<div className="persona-user">
+										<span className="persona">Persona 3</span>
+										<span className="right-low-user">@usuario3</span>
+									</div>
+								</div>
+							</div>
 							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
