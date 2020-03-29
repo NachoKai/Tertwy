@@ -711,6 +711,11 @@
   padding: 0;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
 }
 
 html,
