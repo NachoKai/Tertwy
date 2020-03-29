@@ -68,9 +68,6 @@ function App() {
 							<span>Mas opciones</span>
 						</div>
 					</Row>
-					<Row>
-						<div className="piar-btn">Pio Pio!</div>
-					</Row>
 				</div>
 				<div className="col-lg-6 justify-content-center contenedor-cen">
 					<Row>

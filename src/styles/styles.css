@@ -50,30 +50,6 @@
   margin-right: 20px;
 }
 
-.piar-btn {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.2rem;
-  border-radius: 30px;
-  padding: 10px;
-  width: 100%;
-  background: #794bc4;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-
-.piar-btn:hover {
-  cursor: pointer;
-  background: #865dca;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-.piar-btn:active {
-  -webkit-transform: translateY(2px);
-          transform: translateY(2px);
-}
-
 .contenedor-cen {
   padding: 0 25px 0 25px;
   width: 100%;
@@ -187,6 +163,8 @@
 }
 
 .input-down {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -700,6 +678,13 @@
   }
   .contenedor-izq {
     padding-left: 15px !important;
+  }
+  .input-down {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 

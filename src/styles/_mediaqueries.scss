@@ -50,8 +50,8 @@
 	}
 
 	.contenedor-der {
-    border-left: 0px;
-    padding-right: 15px !important;
+		border-left: 0px;
+		padding-right: 15px !important;
 	}
 
 	.right-up {
@@ -74,5 +74,10 @@
 
 	.contenedor-izq {
 		padding-left: 15px !important;
+	}
+
+	.input-down {
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 }
