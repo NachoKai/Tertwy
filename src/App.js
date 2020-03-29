@@ -9,80 +9,29 @@ import Tendencia from './components/tendencia';
 import InputPio from './components/input-pio';
 import Pio from './components/pio';
 import Buscador from './components/buscador';
+import LeftLink from './components/left-link';
+import Logo from './components/logo';
+import Section from './components/section';
+import Footer from './components/footer';
 
 function App() {
 	return (
 		<div className="container justify-content-center contenedor-gen">
 			<div className="row">
 				<div className="col-lg-3 justify-content-center contenedor-izq">
-					<Row>
-						<div className="logo" id="logo">
-							<i className="fas fa-dove"></i>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="fas fa-home"></i>
-							<span>Inicio</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="fas fa-hashtag"></i>
-							<span>Explorar</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="far fa-bell"></i>
-							<span>Notificaciones</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="far fa-envelope"></i>
-							<span>Mensajes</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="fas fa-thumbtack"></i>
-							<span>Guardados</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="far fa-list-alt"></i>
-							<span>Listas</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="fas fa-user-circle"></i>
-							<span>Perfil</span>
-						</div>
-					</Row>
-					<Row>
-						<div className="left-btn">
-							<i className="fas fa-ellipsis-h"></i>
-							<span>Mas opciones</span>
-						</div>
-					</Row>
+					<Logo />
+					<LeftLink title="Inicio" icon="fas fa-home" />
+					<LeftLink title="Explorar" icon="fas fa-hashtag" />
+					<LeftLink title="Notificaciones" icon="far fa-bell" />
+					<LeftLink title="Mensajes" icon="far fa-envelope" />
+					<LeftLink title="Guardados" icon="fas fa-thumbtack" />
+					<LeftLink title="Listas" icon="far fa-list-alt" />
+					<LeftLink title="Perfil" icon="fas fa-user-circle" />
+					<LeftLink title="Más opciones" icon="fas fa-ellipsis-h" />
 				</div>
 				<div className="col-lg-6 justify-content-center contenedor-cen">
-					<Row>
-						<div className="center-top">
-							<span className="inicio-center">Inicio</span>
-							<div className="estrellas-icon">
-								<span role="img" aria-label="Stars">
-									✨
-								</span>
-							</div>
-						</div>
-					</Row>
-					<Row>
-						<InputPio />
-					</Row>
+					<Section title="Inicio" icon="✨" />
+					<InputPio />
 					<Row>
 						<Pio
 							nombre="Nombre 1"
@@ -129,9 +78,7 @@ function App() {
 					</Row>
 				</div>
 				<div className="col-lg-3 justify-content-center contenedor-der">
-					<Row>
-						<Buscador />
-					</Row>
+					<Buscador />
 					<Col>
 						<div className="right-mid">
 							<div className="tend-div">
@@ -159,16 +106,7 @@ function App() {
 							<div className="right-mid-sublink">Mostrar más</div>
 						</div>
 					</Col>
-					<Row>
-						<div className="right-footer">
-							<div className="right-low-link">Términos</div>
-							<div className="right-low-link">Política de privacidad</div>
-							<div className="right-low-link">Cookies</div>
-							<div className="right-low-link">Información de anuncios</div>
-							<div className="right-low-link">Más opciones</div>
-						</div>
-						<div className="right-low-footer">© 2020 PioPio, Inc.</div>
-					</Row>
+					<Footer />
 				</div>
 			</div>
 		</div>
