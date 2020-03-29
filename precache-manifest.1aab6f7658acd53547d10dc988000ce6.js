@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b81b490935c61459f11103182b8b1588",
+    "revision": "eb007f7edbe926d596eeef53d87d9e7a",
     "url": "/Tertwy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tertwy/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "242be53dffa06f993f47",
-    "url": "/Tertwy/static/css/main.9603517c.chunk.css"
+    "revision": "6033fa52a6fc2387fb63",
+    "url": "/Tertwy/static/css/main.e85ad8a5.chunk.css"
   },
   {
     "revision": "444c9f3559922f73edc6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tertwy/static/js/2.146e131f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "242be53dffa06f993f47",
-    "url": "/Tertwy/static/js/main.2e878a60.chunk.js"
+    "revision": "6033fa52a6fc2387fb63",
+    "url": "/Tertwy/static/js/main.edee03d3.chunk.js"
   },
   {
     "revision": "20cdb4e10384ae7e5aff",
