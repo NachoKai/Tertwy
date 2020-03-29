@@ -688,6 +688,23 @@
   }
 }
 
+@media all and (max-width: 330px) {
+  .avatar-mid-pio {
+    max-width: 35px;
+  }
+  .avatar-circle {
+    max-width: 35px;
+  }
+  .left-btn {
+    font-size: 1rem;
+  }
+  .left-btn .fas,
+  .left-btn .far,
+  .left-btn .fab {
+    font-size: 1.3rem;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
